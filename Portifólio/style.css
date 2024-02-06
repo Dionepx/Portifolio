@@ -1,0 +1,243 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+
+   html,body {
+     height: 100%;
+   }
+ 
+   .menu {
+     position: absolute;
+     right: 200px;
+     top: 50px;
+     color: white; 
+     font-size: 25px;
+     font-weight: bold;
+     padding-right: 20px;
+   }
+ 
+   .menu span {
+     margin-left: 70px;
+     cursor: pointer;
+     padding-bottom: 20px;
+   }
+ 
+   .menu span:hover {
+     border-bottom: 4px solid white;
+   }
+ 
+ 
+   .skills img {
+     width: 70px;
+     height: 70px;
+   }
+ 
+   .skills span {
+     transition: 0.3s;
+   }
+ 
+   header .html {
+     position: absolute;
+     top: 590px;
+     left: 1px;  
+   }
+ 
+   header .css {
+     position: absolute;
+     top: 590px;
+     left: 110px; 
+   }
+ 
+   header .js {
+     position: absolute;
+     top: 590px;
+     left: 220px; 
+   }
+ 
+   header .css:hover {
+     position: absolute;
+     top: 570px;
+   }
+ 
+   header .html:hover {
+     position: absolute;
+     top: 570px;
+   }
+ 
+   header .js:hover {
+     position: absolute;
+     top: 570px;
+   }
+   
+   ::-webkit-scrollbar {
+     width: 10px;
+   }
+   
+   ::-webkit-scrollbar-thumb {
+     width: 8px;
+     background-color: #6f559d;
+     border-radius: 5px;
+   }
+   
+   /*Emogi animado*/
+   .happy {
+     display: none;
+   }
+   
+   header img {
+     position: absolute;
+     width: 35px;
+     height: 35px;
+     left: 280px;
+     top: 62px;
+     background-image: url('img/happy.png');
+   }
+   
+   header {
+     width: 100%;
+     height: 800px;
+     background-color: rgb(195, 58, 195);
+     background-image: radial-gradient(circle,rgb(195, 58, 195),rgb(95, 1, 95));
+     font-family: Helvetica, sans-serif;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 100px;
+     line-height: 165%;
+   }
+   
+   header span { 
+     font-size: 27px;
+     margin-left: 60px;
+     font-weight: bold;
+     position: absolute;
+     top: 110px;
+     left: 300px;
+     color: rgba(255, 255, 255, 0.741);
+     text-shadow: 10px 10px 25px white;
+     color: white;
+   }
+   
+   header p {
+     position: absolute;
+     font-size: 30px;
+     font-weight: bold;
+     left: 1002px;
+     top: 293px;
+     color: rgba(255, 255, 255, 0.741); 
+   }
+   
+   .experience {
+     position: absolute;
+     top: 60px;
+     left: 820px;
+     font-size: 50px;
+     color: #fff7d2;
+     text-shadow: 1px 1px 10px #faf519;
+     font-family: Garamond, serif;
+     cursor: pointer;
+   }
+   
+   .end {
+     font-size: 30px;
+     background-color: rgba(255, 255, 255, 0.741);
+   }
+   
+   .msg {
+     position: absolute;
+     line-height: 30px;
+     top: 590px;
+     left: 980px;
+     font-size: 19px;
+     color: white;
+   }
+   
+   .git {
+     position: absolute;
+     left: 850px;
+     top: 210px;
+     font-size: 50px;
+   }
+   
+   .linkedin {
+     position: absolute;
+     left: 960px;
+     top: 210px;
+   }
+   
+   .curriculo {
+     position: absolute;
+     left: 1070px;
+     top: 210px;
+   }
+   
+   .icons img {
+     width: 60px;
+     height: 60px;
+     transition: 0.2s;
+     color: white;
+   }
+   
+   .icons img:hover {
+     width: 70px;
+     height: 70px;
+     top: 50px;
+   }
+   
+   .arrow img {
+     position: absolute;
+     top: 770px;
+     left: 925px;
+     transition: 1s;
+   }
+   
+   .arrow img:hover {
+     position: absolute;
+     top: 770px;
+     left: 925px;
+     transform: rotate(365deg);
+     cursor: pointer;
+   }
+ 
+   /*Dev. Junior*/
+   header h1:hover {
+     text-shadow: 1px 1px 15px #808080;
+     cursor: pointer;
+     color: white;
+   }
+   
+   main {
+     width: 100%;
+     height: 569px;
+     background-image: radial-gradient(circle,#5b8bbc,#3c6d9e,#1c4977);
+   }
+   
+   main img {
+     position: absolute;
+     top: 760px;
+     left: 970px;
+   }
+   
+   main h1 {
+     color: white;
+     font-family: "Sofia", sans-serif;
+     font-size: 60px;
+     margin-left: 280px;
+     padding-top: 100px;
+     cursor: pointer;
+   }
+   
+   .sobreMim {
+     width: 600px;
+     font-size: 27px;
+     text-align: center;
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     letter-spacing: 2px;
+     margin-left: 195px;
+     margin-top: 40px;
+     cursor: pointer;
+   }
